@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['SurfaceCrack']
+
+roboflow:
+  workspace: artemiy
+  project: yolov5-ji2ek
+  version: 13
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/artemiy/yolov5-ji2ek/dataset/13
